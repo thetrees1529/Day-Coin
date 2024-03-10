@@ -18,8 +18,8 @@ contract Day is ERC20("","") {
     using Strings for uint;
     using DateTime for uint;
 
-    uint public lifeSpan = 86400;
-    uint public toLP = 1000000e18;
+    uint public lifeSpan;
+    uint public toLP;
     uint public day;
     Day public parent;
     uint public deadAt;
